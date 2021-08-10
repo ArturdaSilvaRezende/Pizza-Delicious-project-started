@@ -1,0 +1,17 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "header header header";
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        grid-template-areas: 
+        "header header header";
+    }
+}
+
+.header {
+    grid-area: header;
+}

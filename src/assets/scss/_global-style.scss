@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+$orange-default: #fac564;
+
+//active class navigation
+.link-active {
+    color: $orange-default !important;
+    border: 1px solid $orange-default;
+    padding: 5px;
+}
+
+
+@keyframes show-header {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+.showHeader {
+    animation: 0.5s ease-in show-header;
+}
+
+@keyframes hide-header {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: -100%;
+    }
+}
+
+.hideHeader {
+    animation: 0.5s ease-in hideHeader;
+}
+
