@@ -9,32 +9,21 @@ $orange-default: #fac564;
     padding: 5px;
 }
 
-
-@keyframes show-header {
+//scroll header
+@keyframes scroll-header-show {
     from {
-        left: -100%;
+        top: -50px;
     }
 
     to {
-        left: 0;
+        top: 0;
     }
 }
 
 .showHeader {
-    animation: 0.5s ease-in show-header;
+    animation: 1s scroll-header-show;
 }
 
-@keyframes hide-header {
-    from {
-        left: 0;
-    }
 
-    to {
-        left: -100%;
-    }
-}
 
-.hideHeader {
-    animation: 0.5s ease-in hideHeader;
-}
 
