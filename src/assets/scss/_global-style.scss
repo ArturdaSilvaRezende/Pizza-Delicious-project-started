@@ -2,6 +2,11 @@
 
 $orange-default: #fac564;
 
+//text orange global
+.color-orange {
+    color: $orange-default;
+}
+
 //active class navigation
 .link-active {
     color: $orange-default !important;
@@ -44,6 +49,13 @@ $orange-default: #fac564;
     border-radius: $property;
 }
 
+//background global
+.bg-black {
+    background-color: #000;
+}
+.bg-orange {
+    background-color: $orange-default;
+}
 
 
 
