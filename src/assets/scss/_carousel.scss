@@ -1,0 +1,126 @@
+@import "global-style";
+
+.main {
+
+    #myCarousel {
+
+        position: relative !important;
+
+        .carousel-indicators {
+            li {
+                display: block;
+                background-color: $orange-default;
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .carousel-inner {
+
+            .carousel-item {
+
+                .carousel-item-container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: rgba(0, 0, 0, 0.6);
+                   
+                    .carousel-item-content {
+                        display: flex;
+                        align-items: flex-end;
+                        flex-direction: column;
+                        margin-right: 3%;
+                        text-align: center;
+                       
+                        p {
+                            
+                            width: 55%;
+                        }
+
+                        h2 {
+                            color: $orange-default !important;
+                            font-family: 'Style Script', cursive;
+                            width: 50%;
+                        }
+
+                        .carousel-item-container-btn {
+                            width: 50%;
+                        }
+                    }
+
+                    .carousel-inner-img {
+                        display: block;
+                        margin-right: 6%;
+                        width: 70%;
+                    }
+
+                }
+
+            }
+        }
+
+
+    }
+
+    @media screen and (max-width: 992px) {
+
+        .carousel-inner {
+
+            .carousel-item {
+
+                .carousel-item-container {
+
+                    flex-direction: column;
+                  
+                    .carousel-item-content {
+                        margin-right: 0 !important;
+                        padding: 20px;
+
+                        p,h2 {
+                            width: 100% !important;
+                        }
+
+                        p {
+                            font-size: 0.8rem;
+                            
+                        }
+
+                        .carousel-item-container-btn {
+                            width: 100% !important;
+                        }
+                    }
+
+                    .carousel-inner-img {
+                        height: 300px;
+                        margin: 30px 0 20% 0 !important;
+                        width: 60% !important;
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        .carousel-inner {
+            .carousel-item {
+                .carousel-item-container {
+
+                    .carousel-item-content {
+                        p {
+                            margin: 20px auto;
+                            width: 55% !important;
+                        }
+                    }
+
+                    .carousel-inner-img {
+                        height: 300px;
+                        margin: 30px 0 10% 0 !important;
+                        width: 60% !important;
+                    }
+                }
+            }
+        }
+    }
+}

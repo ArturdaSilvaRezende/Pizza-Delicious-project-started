@@ -5,7 +5,8 @@
     padding: 10px;
     position: relative;
     width: 100%;
-
+    z-index: 999;
+    
     .container {
         display: flex;
         justify-content: space-between;
@@ -89,8 +90,6 @@
 
     @media screen and (max-width: 992px){
 
-   
-
         .header__btn-menu {
             display: block;
         }
@@ -121,4 +120,18 @@
             }
         }
     }
+}
+
+//scroll header
+@keyframes scroll-header-show {
+    from {
+        top: -50px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+.showHeader {
+    animation: 1s scroll-header-show;
 }
