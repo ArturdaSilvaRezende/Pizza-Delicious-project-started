@@ -13,3 +13,6 @@ import "../img/bg_3.jpg";
 import "../img/carousel-pizza-01.png";
 import "../img/carousel-pizza-02.png";
 import "../img/carousel-pizza-03.png";
+
+//about
+import "../img/about.jpg";
