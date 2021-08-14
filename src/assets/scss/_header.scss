@@ -1,137 +1,134 @@
 @import "global-style";
 
 .header {
-    background-color: #000;
-    padding: 10px;
+  background-color: #000;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  z-index: 999;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__logo {
     position: relative;
-    width: 100%;
-    z-index: 999;
-    
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    margin-bottom: -46px;
 
-    .header__logo {
+    figure {
+      display: flex;
+      align-items: center;
+
+      figcaption {
+        span,
+        p {
+          font-family: "Style Script", cursive;
+        }
+
+        span {
+          color: #fff;
+          font-size: 1.6rem;
+        }
+
+        p {
+          color: $orange-default;
+          font-size: 2.2rem;
+          margin-top: -7px;
+        }
+      }
+
+      img {
+        width: 60px;
+        display: block;
         position: relative;
-        margin-bottom: -46px;
-
-        figure {
-            display: flex;
-            align-items: center;
-          
-            figcaption {
-              
-                span,p {
-                    font-family: 'Style Script', cursive;
-                }
-
-                span {
-                    color: #fff;
-                    font-size: 1.6rem;
-                }
-
-                p {
-                    color: $orange-default;
-                    font-size: 2.2rem;
-                    margin-top: -7px;
-                }
-            }
-
-            img {
-                width: 60px;
-                display: block;
-                position: relative;
-                top: -25px;
-                left: -50px;
-            }
-        }
+        top: -25px;
+        left: -50px;
+      }
     }
+  }
 
-    .header__btn-menu {
-        background-color: transparent;
-        color: #fff;
-        border: none;
-        font-size: 1.3rem;
-        outline: none !important;
-        transition: 0.3s ease-in;
-        display: none;
+  .header__btn-menu {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 1.3rem;
+    outline: none !important;
+    transition: 0.3s ease-in;
+    display: none;
 
-        &:hover {
+    &:hover {
+      color: $orange-default;
+    }
+  }
+
+  .header__menu {
+    margin-top: 20px;
+
+    ul {
+      display: flex;
+
+      li {
+        a {
+          color: #fff;
+          font-weight: 400;
+          transition: 0.3s ease-in;
+
+          &:hover {
             color: $orange-default;
+          }
         }
+      }
+
+      li + li {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .header__btn-menu {
+      display: block;
     }
 
     .header__menu {
-        margin-top: 20px;
-       
-        ul {
-            display: flex;
+      position: absolute;
+      top: 67px;
+      left: -100%;
+      width: 100%;
+      background-color: #000;
+      padding: 30px 20px 20px 20px;
 
-            li {
-                a {
-                    color: #fff;
-                    font-weight: 400;
-                    transition: 0.3s ease-in;
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
 
-                    &:hover {
-                        color: $orange-default;
-                    }
-                }
-            }
-
-            li + li {
-                margin-left: 20px;
-            }
+        li {
+          .link-active {
+            margin-left: 20px;
+          }
         }
+        li + li {
+          margin-top: 20px;
+        }
+      }
     }
-
-
-    @media screen and (max-width: 992px){
-
-        .header__btn-menu {
-            display: block;
-        }
-
-        .header__menu {
-            position: absolute;
-            top: 69px;
-            left: -100%;
-            width: 100%;
-            background-color: #000;
-            padding: 30px 20px 20px 20px;
-           
-
-            ul {    
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-
-                li {
-                    .link-active {
-                        margin-left: 20px;
-                    }
-                }
-                li + li {
-                    margin-top: 20px;
-                }
-            }
-        }
-    }
+  }
 }
 
 //scroll header
 @keyframes scroll-header-show {
-    from {
-        top: -50px;
-    }
+  from {
+    top: -50px;
+  }
 
-    to {
-        top: 0;
-    }
+  to {
+    top: 0;
+  }
 }
 .showHeader {
-    animation: 1s scroll-header-show;
+  animation: 1s scroll-header-show;
 }

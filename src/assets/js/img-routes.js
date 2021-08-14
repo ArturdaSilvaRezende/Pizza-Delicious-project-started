@@ -16,3 +16,6 @@ import "../img/carousel-pizza-03.png";
 
 //about
 import "../img/about.jpg";
+
+//out services
+import "../img/food.png";
