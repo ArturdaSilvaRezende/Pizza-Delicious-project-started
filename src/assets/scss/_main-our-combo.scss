@@ -1,0 +1,40 @@
+#main-our-combo {
+  .main-our-combo-title {
+    p {
+      width: 50%;
+    }
+  }
+  .container {
+    .row {
+      figure {
+        img {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .main-our-combo-title {
+      p {
+        width: 100%;
+      }
+    }
+    .container {
+      .row {
+        figure {
+          align-items: center;
+          flex-direction: column;
+          img {
+            width: 100%;
+          }
+
+          figcaption {
+            margin: 20px 0;
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}

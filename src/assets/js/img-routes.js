@@ -17,5 +17,11 @@ import "../img/carousel-pizza-03.png";
 //about
 import "../img/about.jpg";
 
-//out services
+//our services
 import "../img/food.png";
+
+//our combo
+import "../img/combo-01.jpg";
+import "../img/combo-02.jpg";
+import "../img/combo-03.jpg";
+import "../img/combo-04.jpg";
