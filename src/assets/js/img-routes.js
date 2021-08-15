@@ -7,6 +7,8 @@ import "../img/bg_4.jpg";
 //header
 import "../img/logo.png";
 
+// ---------- main content  ----------
+
 //carousel
 import "../img/bg_1.jpg";
 import "../img/bg_3.jpg";
@@ -25,3 +27,40 @@ import "../img/combo-01.jpg";
 import "../img/combo-02.jpg";
 import "../img/combo-03.jpg";
 import "../img/combo-04.jpg";
+
+// ----- our menu  -----
+
+//row 01
+import "../img/bauru.jpg";
+import "../img/calabresa.jpg";
+import "../img/catuperoni.jpg";
+
+//row 02
+import "../img/mussarela.jpg";
+import "../img/margherita.jpg";
+import "../img/pepperone.jpg";
+
+//row 03
+import "../img/presunto.jpg";
+import "../img/napolitana.jpg";
+import "../img/pao-de-alho.jpg";
+
+//row 04
+import "../img/america.jpg";
+import "../img/3-queijos.jpg";
+import "../img/frango-com-requeijao.jpg";
+
+//row 05
+import "../img/calabresa-especial.jpg";
+import "../img/frango-cream-cheese.jpg";
+import "../img/frango-grelhado.jpg";
+
+//row 06
+import "../img/portuguesa.jpg";
+import "../img/veggie.jpg";
+import "../img/toscana.jpg";
+
+//row 07
+import "../img/4-queijos.jpg";
+import "../img/meat-bacon.jpg";
+import "../img/pepperrock.jpg";
