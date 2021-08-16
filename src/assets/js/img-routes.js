@@ -7,7 +7,7 @@ import "../img/bg_4.jpg";
 //header
 import "../img/logo.png";
 
-// ---------- main content  ----------
+// ---------- main content ----------
 
 //carousel
 import "../img/bg_1.jpg";
@@ -28,7 +28,7 @@ import "../img/combo-02.jpg";
 import "../img/combo-03.jpg";
 import "../img/combo-04.jpg";
 
-// ----- our menu  -----
+// ----- our menu -----
 
 //row 01
 import "../img/bauru.jpg";
@@ -64,3 +64,10 @@ import "../img/toscana.jpg";
 import "../img/4-queijos.jpg";
 import "../img/meat-bacon.jpg";
 import "../img/pepperrock.jpg";
+
+//our environment
+import "../img/bg_2.jpg";
+import "../img/gallery-1.jpg";
+import "../img/gallery-2.jpg";
+import "../img/gallery-3.jpg";
+import "../img/gallery-4.jpg";
