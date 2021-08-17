@@ -1,6 +1,19 @@
 @import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
 @import "reset";
 @import "global-style";
 @import "wrapper";
 @import "header";
 @import "carousel";
+@import "main-contact";
+@import "main-about";
+@import "main-our-services";
+@import "main-our-combo";
+@import "main-our-menu";
+@import "main-our-environment";
+@import "main-side-dish";
+@import "main-contact-us";

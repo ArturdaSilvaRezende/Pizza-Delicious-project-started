@@ -1,0 +1,97 @@
+@import "global-style";
+
+#side-dish {
+  margin-top: 8%;
+
+  .nav {
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+
+    li {
+      width: 100px;
+      a {
+        display: block;
+        font-size: 0.9rem;
+        text-align: center;
+      }
+    }
+    li + li {
+      margin-left: 20px;
+    }
+  }
+
+  .tab-content {
+    margin-top: 5%;
+    .tab-pane {
+      figure {
+        img {
+          width: 100%;
+        }
+
+        figcaption {
+          button {
+            @include borderRadiusGlobal(6px);
+            margin-top: 10px;
+            padding: 3px;
+            width: 100%;
+          }
+
+          margin-top: 20px;
+          h4 {
+            font-size: 1rem;
+            margin-top: 15px;
+          }
+          p {
+            width: 100%;
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .side-dish-title {
+      h2 {
+        font-size: 1.3rem;
+      }
+      p {
+        width: 70%;
+        margin: 0 auto;
+      }
+    }
+
+    .nav {
+      li {
+        margin: 10px 0 0 10px !important;
+
+        a {
+          display: block;
+          font-size: 0.9rem;
+        }
+      }
+    }
+
+    .tab-content {
+      display: flex;
+      .tab-pane {
+        margin: 0 auto;
+        figure {
+          flex-direction: column;
+          text-align: center;
+          img {
+            width: 70%;
+          }
+
+          figcaption {
+            button {
+              margin-top: 0;
+              width: 70%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
