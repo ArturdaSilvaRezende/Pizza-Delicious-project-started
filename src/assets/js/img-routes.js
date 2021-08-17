@@ -71,3 +71,29 @@ import "../img/gallery-1.jpg";
 import "../img/gallery-2.jpg";
 import "../img/gallery-3.jpg";
 import "../img/gallery-4.jpg";
+
+// ----- side dish -----
+
+//sweet pizzas
+import "../img/churrosbread.jpg";
+import "../img/chocobread.jpg";
+import "../img/brotinho-de-chocolate.jpg";
+import "../img/brotinho-de-ovomaltine.jpg";
+
+//drinks
+import "../img/sucos.jpg";
+import "../img/refrigerantes.jpg";
+import "../img/cervejas.jpg";
+import "../img/cha-gelado.jpg";
+
+//calzones
+import "../img/calzone-4queijos.jpg";
+import "../img/calzone-marguerita.jpg";
+import "../img/calzone-calabresa.jpg";
+import "../img/calzone-bacon-pepperoni.jpg";
+
+//pastas
+import "../img/pasta-1.jpg";
+import "../img/pasta-2.jpg";
+import "../img/pasta-3.jpg";
+import "../img/pasta-4.jpg";
