@@ -1,0 +1,36 @@
+#main-contatc-us {
+  margin-top: 10%;
+  .row {
+    .main-contatc-us-send {
+      form {
+        display: flex;
+        flex-direction: column;
+
+        input[type="text"],
+        textarea {
+          background-color: transparent;
+          border: none;
+          border-bottom: 1px solid #fff;
+          color: #fff;
+          margin: 0 auto 20px auto;
+          outline: none;
+          padding: 7px;
+          width: 50%;
+        }
+
+        textarea {
+          resize: none;
+        }
+
+        ::placeholder {
+          color: #fff !important;
+        }
+
+        button {
+          margin: 0 auto;
+          width: 50%;
+        }
+      }
+    }
+  }
+}
