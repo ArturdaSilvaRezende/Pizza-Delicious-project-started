@@ -14,3 +14,9 @@ import "./img-routes";
 
 //animation header
 import "./header";
+
+//navigation links
+import "./navigation-links";
+
+//scroll animation
+import "./scrollAnimation";

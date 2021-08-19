@@ -66,3 +66,18 @@ $orange-default: #fac564;
 .custom-span {
   font-family: "Style Script", cursive;
 }
+
+//animation scroll
+[data-scroll] {
+  opacity: 0;
+  transition: 0.5s ease-in;
+}
+[data-scroll="bottom"] {
+  transform: translate3d(0, 50px, 0);
+}
+
+//js animation class
+[data-scroll].animate-scroll {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
