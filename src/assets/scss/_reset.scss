@@ -1,23 +1,25 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
 }
 
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-image: url('../img/bg_4.jpg');
-    background-attachment: fixed; 
+  background-image: url("../img/bg_4.jpg");
+  background-attachment: fixed;
 }
