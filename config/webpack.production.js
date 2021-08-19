@@ -1,9 +1,9 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-//const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const common = require("./webpack.common");
 const merge = require("webpack-merge");
-// const purgeCss = require("purgecss-webpack-plugin");
-// const glob = require("glob");
+const purgeCss = require("purgecss-webpack-plugin");
+const glob = require("glob");
 const path = require("path");
 
 const PATH = {
@@ -59,9 +59,9 @@ const config = {
     new MiniCssExtractPlugin({
       filename: "assets/css/style.css",
     }),
-    // new purgeCss({
-    //   paths: glob.sync("./**/*.html", { nodir: true }),
-    // }),
+    new purgeCss({
+      paths: glob.sync(`${PATH.dist}/**/*`, { nodir: true }),
+    }),
   ],
 };
 

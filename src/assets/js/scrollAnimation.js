@@ -6,6 +6,10 @@
 
   animeScroll();
 
+  window.addEventListener("scroll", () => {
+    animeScroll();
+  });
+
   if (target.length) {
     window.addEventListener("scroll", () => {
       animeScroll();
