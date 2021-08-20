@@ -4,7 +4,7 @@
 
 Este projeto tem como foco a prática no Web design responsivo.
 
-## As tecnologias utilizadas nesse projeto foram as seguintes:
+## As tecnologias utilizadas no projeto foram as seguintes:
 
 * HTML5
 * CSS3
