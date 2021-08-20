@@ -29,7 +29,9 @@ npm install - Para instalar as dependências
 * npm start = Para rodar o servidor dev do webpack em http:// localhost:9001/ e renderizar o arquivo index.html salvo na memória.
 * npm run build = Para gerar o "bundle" de produção.
 
-#### O site do projeto está hospedado no Vercel, caso você queira fazer uma visita ao site, basta clicar no dominío abaixo
+#### O site do projeto está hospedado no Vercel, caso você queira fazer uma visita ao site, basta clicar no link abaixo
 
-https://pizza-delicious-project-started.vercel.app/
+<a href="https://pizza-delicious-project-started.vercel.app/" target="_blank">Project Pizza Delicious</a>
+
+
  
